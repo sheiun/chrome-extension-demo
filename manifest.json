@@ -6,5 +6,16 @@
   "browser_action": {
     "default_title": "My Extesion",
     "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": ["*://*.buddymojo.com/*"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
   }
 }
