@@ -1,0 +1,10 @@
+{
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "My First Extension!",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "My Extesion",
+    "default_popup": "popup.html"
+  }
+}
