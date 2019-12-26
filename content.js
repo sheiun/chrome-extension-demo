@@ -6,7 +6,6 @@ function loop() {
     .outerText.split(" ");
   if (splittedH2.length > 1) {
     let friend = splittedH2[0];
-    alert(friend);
     setFriend(friend);
     return;
   }
